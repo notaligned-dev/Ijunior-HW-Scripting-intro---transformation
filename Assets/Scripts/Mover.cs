@@ -6,10 +6,10 @@ public class Mover : MonoBehaviour
 
     private void Update()
     {
-        Transform();
+        Move();
     }
 
-    private void Transform()
+    private void Move()
     {
         transform.position = transform.position + _movingSpeed * Time.deltaTime * transform.forward.normalized;
     }

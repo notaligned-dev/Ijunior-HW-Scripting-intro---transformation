@@ -6,9 +6,9 @@ public class Rotator : MonoBehaviour
 
     private void Update()
     {
-        Transform();
+        Rotate();
     }
-    private void Transform()
+    private void Rotate()
     {
         transform.Rotate(0, _rotationDegreePerSecond * Time.deltaTime, 0);
     }

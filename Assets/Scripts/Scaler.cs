@@ -13,10 +13,10 @@ public class Scaler : MonoBehaviour
 
     private void Update()
     {
-        Transform();
+        Scale();
     }
 
-    private void Transform()
+    private void Scale()
     {
         transform.localScale += _scaleValueVector * Time.deltaTime;
     }
